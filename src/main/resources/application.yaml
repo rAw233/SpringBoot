@@ -1,7 +1,6 @@
-server:
-  port: 8080
-
-person:
-  likes:
-    - book
-    - movie
+spring:
+  datasource:
+    name: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/myLocalHost?serverTimezone=UTC&useUnicode=true@characterEncodeing=utf-8
